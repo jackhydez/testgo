@@ -1,6 +1,6 @@
 all:
 	go build main.go
-	./main
+	./main &
 build:
 	go build main.go
 run:
